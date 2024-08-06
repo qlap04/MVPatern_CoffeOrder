@@ -14,6 +14,15 @@
 		D88385492C615769004524CD /* MVPatern_CoffeOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88385482C615769004524CD /* MVPatern_CoffeOrderTests.swift */; };
 		D88385532C615769004524CD /* MVPatern_CoffeOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88385522C615769004524CD /* MVPatern_CoffeOrderUITests.swift */; };
 		D88385552C615769004524CD /* MVPatern_CoffeOrderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88385542C615769004524CD /* MVPatern_CoffeOrderUITestsLaunchTests.swift */; };
+		D88385642C6157F4004524CD /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88385632C6157F4004524CD /* Webservice.swift */; };
+		D88385672C615869004524CD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88385662C615869004524CD /* Order.swift */; };
+		D883856B2C6167A1004524CD /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883856A2C6167A1004524CD /* CoffeeModel.swift */; };
+		D88385712C616E62004524CD /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88385702C616E62004524CD /* OrderCellView.swift */; };
+		D88385742C616FC3004524CD /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88385732C616FC3004524CD /* AppEnvironment.swift */; };
+		D88F7E352C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F7E342C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests.swift */; };
+		D88F7E3E2C618726002F3DD2 /* AddCoffeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F7E3D2C618726002F3DD2 /* AddCoffeView.swift */; };
+		D88F7E412C6189BB002F3DD2 /* centerHorizontally.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F7E402C6189BB002F3DD2 /* centerHorizontally.swift */; };
+		D88F7E432C618B6B002F3DD2 /* stringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F7E422C618B6B002F3DD2 /* stringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +34,13 @@
 			remoteInfo = MVPatern_CoffeOrder;
 		};
 		D883854F2C615769004524CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D883852C2C615767004524CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88385332C615767004524CD;
+			remoteInfo = MVPatern_CoffeOrder;
+		};
+		D88F7E382C6181D4002F3DD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D883852C2C615767004524CD /* Project object */;
 			proxyType = 1;
@@ -44,6 +60,16 @@
 		D883854E2C615769004524CD /* MVPatern_CoffeOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPatern_CoffeOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88385522C615769004524CD /* MVPatern_CoffeOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPatern_CoffeOrderUITests.swift; sourceTree = "<group>"; };
 		D88385542C615769004524CD /* MVPatern_CoffeOrderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPatern_CoffeOrderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D88385632C6157F4004524CD /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		D88385662C615869004524CD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D883856A2C6167A1004524CD /* CoffeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeModel.swift; sourceTree = "<group>"; };
+		D88385702C616E62004524CD /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
+		D88385732C616FC3004524CD /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		D88F7E322C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPatern_CoffeOrderE2fUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88F7E342C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPatern_CoffeOrderE2fUITests.swift; sourceTree = "<group>"; };
+		D88F7E3D2C618726002F3DD2 /* AddCoffeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeView.swift; sourceTree = "<group>"; };
+		D88F7E402C6189BB002F3DD2 /* centerHorizontally.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centerHorizontally.swift; sourceTree = "<group>"; };
+		D88F7E422C618B6B002F3DD2 /* stringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +94,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D88F7E2F2C6181D4002F3DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +110,7 @@
 				D88385362C615767004524CD /* MVPatern_CoffeOrder */,
 				D88385472C615769004524CD /* MVPatern_CoffeOrderTests */,
 				D88385512C615769004524CD /* MVPatern_CoffeOrderUITests */,
+				D88F7E332C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests */,
 				D88385352C615767004524CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +121,7 @@
 				D88385342C615767004524CD /* MVPatern_CoffeOrder.app */,
 				D88385442C615769004524CD /* MVPatern_CoffeOrderTests.xctest */,
 				D883854E2C615769004524CD /* MVPatern_CoffeOrderUITests.xctest */,
+				D88F7E322C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +129,14 @@
 		D88385362C615767004524CD /* MVPatern_CoffeOrder */ = {
 			isa = PBXGroup;
 			children = (
-				D88385372C615767004524CD /* MVPatern_CoffeOrderApp.swift */,
+				D88F7E3F2C6188FD002F3DD2 /* Extensions */,
+				D88385722C616F91004524CD /* Utils */,
+				D88385652C615854004524CD /* Models */,
+				D88385622C6157C0004524CD /* Services */,
+				D88385612C61577D004524CD /* Main */,
 				D88385392C615767004524CD /* ContentView.swift */,
 				D883853B2C615769004524CD /* Assets.xcassets */,
+				D883856F2C6169E6004524CD /* Views */,
 				D883853D2C615769004524CD /* Preview Content */,
 			);
 			path = MVPatern_CoffeOrder;
@@ -125,6 +165,65 @@
 				D88385542C615769004524CD /* MVPatern_CoffeOrderUITestsLaunchTests.swift */,
 			);
 			path = MVPatern_CoffeOrderUITests;
+			sourceTree = "<group>";
+		};
+		D88385612C61577D004524CD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D88385372C615767004524CD /* MVPatern_CoffeOrderApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D88385622C6157C0004524CD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D88385632C6157F4004524CD /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D88385652C615854004524CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D88385662C615869004524CD /* Order.swift */,
+				D883856A2C6167A1004524CD /* CoffeeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D883856F2C6169E6004524CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D88385702C616E62004524CD /* OrderCellView.swift */,
+				D88F7E3D2C618726002F3DD2 /* AddCoffeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D88385722C616F91004524CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D88385732C616FC3004524CD /* AppEnvironment.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D88F7E332C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D88F7E342C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests.swift */,
+			);
+			path = MVPatern_CoffeOrderE2fUITests;
+			sourceTree = "<group>";
+		};
+		D88F7E3F2C6188FD002F3DD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D88F7E402C6189BB002F3DD2 /* centerHorizontally.swift */,
+				D88F7E422C618B6B002F3DD2 /* stringExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +282,24 @@
 			productReference = D883854E2C615769004524CD /* MVPatern_CoffeOrderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D88F7E312C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88F7E3C2C6181D4002F3DD2 /* Build configuration list for PBXNativeTarget "MVPatern_CoffeOrderE2fUITests" */;
+			buildPhases = (
+				D88F7E2E2C6181D4002F3DD2 /* Sources */,
+				D88F7E2F2C6181D4002F3DD2 /* Frameworks */,
+				D88F7E302C6181D4002F3DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88F7E392C6181D4002F3DD2 /* PBXTargetDependency */,
+			);
+			name = MVPatern_CoffeOrderE2fUITests;
+			productName = MVPatern_CoffeOrderE2fUITests;
+			productReference = D88F7E322C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +321,10 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = D88385332C615767004524CD;
 					};
+					D88F7E312C6181D4002F3DD2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D88385332C615767004524CD;
+					};
 				};
 			};
 			buildConfigurationList = D883852F2C615767004524CD /* Build configuration list for PBXProject "MVPatern_CoffeOrder" */;
@@ -222,6 +343,7 @@
 				D88385332C615767004524CD /* MVPatern_CoffeOrder */,
 				D88385432C615769004524CD /* MVPatern_CoffeOrderTests */,
 				D883854D2C615769004524CD /* MVPatern_CoffeOrderUITests */,
+				D88F7E312C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +372,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D88F7E302C6181D4002F3DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +386,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88385742C616FC3004524CD /* AppEnvironment.swift in Sources */,
 				D883853A2C615767004524CD /* ContentView.swift in Sources */,
+				D883856B2C6167A1004524CD /* CoffeeModel.swift in Sources */,
 				D88385382C615767004524CD /* MVPatern_CoffeOrderApp.swift in Sources */,
+				D88F7E3E2C618726002F3DD2 /* AddCoffeView.swift in Sources */,
+				D88F7E412C6189BB002F3DD2 /* centerHorizontally.swift in Sources */,
+				D88F7E432C618B6B002F3DD2 /* stringExtensions.swift in Sources */,
+				D88385672C615869004524CD /* Order.swift in Sources */,
+				D88385642C6157F4004524CD /* Webservice.swift in Sources */,
+				D88385712C616E62004524CD /* OrderCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +416,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D88F7E2E2C6181D4002F3DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88F7E352C6181D4002F3DD2 /* MVPatern_CoffeOrderE2fUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +436,11 @@
 			isa = PBXTargetDependency;
 			target = D88385332C615767004524CD /* MVPatern_CoffeOrder */;
 			targetProxy = D883854F2C615769004524CD /* PBXContainerItemProxy */;
+		};
+		D88F7E392C6181D4002F3DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88385332C615767004524CD /* MVPatern_CoffeOrder */;
+			targetProxy = D88F7E382C6181D4002F3DD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -542,6 +692,38 @@
 			};
 			name = Release;
 		};
+		D88F7E3A2C6181D4002F3DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PQL.MVPatern-CoffeOrderE2fUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MVPatern_CoffeOrder;
+			};
+			name = Debug;
+		};
+		D88F7E3B2C6181D4002F3DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PQL.MVPatern-CoffeOrderE2fUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MVPatern_CoffeOrder;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,6 +759,15 @@
 			buildConfigurations = (
 				D883855F2C615769004524CD /* Debug */,
 				D88385602C615769004524CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88F7E3C2C6181D4002F3DD2 /* Build configuration list for PBXNativeTarget "MVPatern_CoffeOrderE2fUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88F7E3A2C6181D4002F3DD2 /* Debug */,
+				D88F7E3B2C6181D4002F3DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
